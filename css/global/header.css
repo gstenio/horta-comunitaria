@@ -3,7 +3,7 @@
   grid-template-columns: 216px 1fr;
 }
 
-.menu {
+.crud-menu {
   padding-top: 1.5rem;
   width: 100%;
   display: flex;
@@ -12,18 +12,18 @@
   z-index: 999;
 }
 
-.menu > div {
+.crud-menu > div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.menu nav {
+.crud-menu nav {
   margin-top: 5.5rem;
-  margin-bottom: 9.5rem;
+  margin-bottom: 6.5rem;
 }
 
-.menu nav ul li a {
+.crud-menu nav ul li a {
   padding: 1.5rem 0 1.5rem 3rem;
   display: flex;
   align-items: center;
@@ -31,12 +31,16 @@
   position: relative;
 }
 
-.menu nav ul li a:hover,
+.exit.icon.btn {
+  margin-bottom: 6rem;
+}
+
+.crud-menu nav ul li a:hover,
 a.active {
   background-color: #e6efd0;
 }
 
-.menu nav ul li a:hover::before,
+.crud-menu nav ul li a:hover::before,
 a.active::before {
   content: "";
   margin-left: -3rem;
